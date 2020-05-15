@@ -25,8 +25,7 @@ public class UserController {
     @GetMapping("/{id}")
     public User findById(@PathVariable long id) {
         log.info("get user called");
-        return repository.findById(id)
-                .orElseThrow(UserNotFoundException::new);
+        return repository.findById(id).orElseThrow(UserNotFoundException::new);
     }
 
     @GetMapping("/")
