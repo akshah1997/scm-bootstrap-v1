@@ -1,2 +1,17 @@
 # scm-bootstrap-v1
-Spring Cloud Micro Services V-1
+#### Spring Cloud Micro Services V-1
+***
+##### Tech stacks
+
+* `Spring Boot(2.2.6.RELEASE)` 
+* `Spring Cloud(Hoxton.SR4)` 
+* `Maven` 
+* `ZooKeeper` 
+* `Zuul 1`
+* `openAPI-3`
+* `Ribbon`
+* `Resilience 4j`
+* `zipkin`
+* `Spring Boot Admin`
+
+ Swagger URL 
