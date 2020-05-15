@@ -14,4 +14,8 @@
 * `zipkin`
 * `Spring Boot Admin`
 
- Swagger URL 
+##### Swagger/openAPI URLs
+ * http://localhost:9091/swagger-ui.html
+ * http://localhost:9091/userService-api-docs
+ * http://localhost:9092/swagger-ui.html
+ * http://localhost:9092/documentService-api-docs
