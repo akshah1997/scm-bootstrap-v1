@@ -6,8 +6,9 @@
 * `Spring Boot(2.2.6.RELEASE)` 
 * `Spring Cloud(Hoxton.SR4)` 
 * `Maven` 
-* `ZooKeeper` 
-* `Zuul 1`
+* `Eureka Server` 
+* `Spring Cloud Gateway`
+* `Spring Cloud Config Server`
 * `openAPI-3`
 * `Ribbon`
 * `Resilience 4j`
@@ -25,4 +26,6 @@
 * http://localhost:8888/user-service/default
 * http://localhost:8888/document-service/default
 
+###### Eureka Server
+* http://localhost:9088/
 

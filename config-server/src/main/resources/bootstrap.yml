@@ -1,5 +1,7 @@
 server.port: 8888
 spring:
+  main:
+    banner-mode: off
   cloud:
     config:
       server:
@@ -8,3 +10,15 @@ spring:
         # Use the File System Backend to avoid git pulling. Enable "native" profile in the Config Server.
         native:
           searchLocations: file:///${GIT_REPO}
+
+
+
+### for setting config location to local
+#spring:
+#  profiles:
+#    active: native
+#  cloud:
+#    config:
+#      server:
+#        native:
+#          searchLocations: file:///C:/development/workspace/scm-bootstrap-v1-config
