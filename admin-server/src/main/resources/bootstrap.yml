@@ -1,0 +1,13 @@
+spring:
+  main:
+    banner-mode: off
+  boot:
+    admin:
+      ui:
+#        brand: Spring Cloud Microservices  - Bootstap v1
+        title: SCM-V1
+  application:
+    name: admin-server
+  cloud:
+    config:
+      uri: http://localhost:8888

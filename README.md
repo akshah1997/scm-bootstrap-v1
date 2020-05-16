@@ -1,7 +1,7 @@
 # scm-bootstrap-v1
 #### Spring Cloud Micro Services V-1
 ***
- ##### Tech stacks
+##### Tech stacks
 
 * `Spring Boot(2.2.6.RELEASE)` 
 * `Spring Cloud(Hoxton.SR4)` 
@@ -15,17 +15,17 @@
 * `zipkin`
 * `Spring Boot Admin`
 
-###### Swagger/openAPI URLs
-* http://localhost:9091/swagger-ui.html
-* http://localhost:9091/userService-api-docs
-* http://localhost:9092/swagger-ui.html
-* http://localhost:9092/documentService-api-docs
- 
- 
-###### Spring cloud config server
-* http://localhost:8888/user-service/default
-* http://localhost:8888/document-service/default
+##### URLs
 
-###### Eureka Server
-* http://localhost:9088/
+- `Swagger UI - http://localhost:xxxxx/swagger-ui.html`
+- `openAPI doc - http://localhost:9091/userService-api-docs` 
+- `Config server - http://localhost:8888/user-service/default`
+- `Discovery Server - http://localhost:9088/`
+- `Admin Server - http://localhost:9089/`
+
+> Note - Microservices server.port is set to 0. So port number will be randomly assigned. 
+> Discovery Server UI will have port number for services.
+
+
+
 
