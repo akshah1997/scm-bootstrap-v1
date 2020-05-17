@@ -22,6 +22,7 @@
 - `Config server - http://localhost:8888/user-service/default`
 - `Discovery Server - http://localhost:9088/`
 - `Admin Server - http://localhost:9089/`
+- `API Gateway - http://localhost:9090/api/user`
 
 > Note - Microservices server.port is set to 0. So port number will be randomly assigned. 
 > Discovery Server UI will have port number for services.
