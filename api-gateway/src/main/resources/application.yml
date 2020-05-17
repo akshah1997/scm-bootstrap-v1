@@ -1,0 +1,20 @@
+#spring:
+#  cloud:
+#    gateway:
+#      discovery:
+#        locator:
+#          enabled: true
+#      default-filters:
+#        - name: GatewayGlobalFilter
+#      routes:
+#        - id: user-ms
+#          uri: lb://user-service
+#          predicates:
+#            - Path=/api/user/**
+#          filters:
+#            - name: GatewayPreFilter
+#            - name: GatewayPostFilter
+#        - id: document-ms
+#          uri: lb://document-service
+#          predicates:
+#            - Path=/api/document/**
